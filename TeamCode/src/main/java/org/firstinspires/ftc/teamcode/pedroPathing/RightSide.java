@@ -51,13 +51,13 @@ public class RightSide extends OpMode{
 
 
     private final Pose startPose = new Pose(88.330,7.787, Math.toRadians(90));
-    private final Pose shootPose = new Pose(73.65435745937961, 21.536, Math.toRadians(60));
+    private final Pose shootPose = new Pose(84.851, 16.012, Math.toRadians(70));
 
     private final Pose collect1 = new Pose(99.970, 34.457, Math.toRadians(180));
 
     private final Pose collect2 = new Pose(131.682, 34.429, Math.toRadians(180));
 
-    private final Pose endPose = new Pose(81.132,39.298, Math.toRadians(90));
+    private final Pose endPose = new Pose(84.132,39.298, Math.toRadians(90));
 
     private PathChain StartShoot;
     private PathChain ShootCollect1;
@@ -130,7 +130,7 @@ public class RightSide extends OpMode{
             case launchon:
                 if(!follower.isBusy()){
 
-                    launch2.setPower(0.95);
+                    launch2.setPower(0.92);
                     setPathState(PathState.intakeon);
                 }
                 break;
@@ -160,7 +160,7 @@ public class RightSide extends OpMode{
                 break;
             case launchon2:
                 if(!follower.isBusy()){
-                    launch2.setPower(0.95);
+                    launch2.setPower(0.92);
                     setPathState(PathState.intakeon2);
                 }
                 break;
