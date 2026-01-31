@@ -66,7 +66,6 @@ public class RightSide extends OpMode{
     private PathChain ShootEnd;
 
     public int shoot = 0;
-    public int shooting = 0;
 
 
     public void buildPaths() {
