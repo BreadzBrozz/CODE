@@ -130,7 +130,7 @@ public class RightSide extends OpMode{
             case launchon:
                 if(!follower.isBusy()){
 
-                    launch2.setPower(0.92);
+                    launch2.setPower(0.89);
                     setPathState(PathState.intakeon);
                 }
                 break;
@@ -160,7 +160,7 @@ public class RightSide extends OpMode{
                 break;
             case launchon2:
                 if(!follower.isBusy()){
-                    launch2.setPower(0.92);
+                    launch2.setPower(0.89);
                     setPathState(PathState.intakeon2);
                 }
                 break;

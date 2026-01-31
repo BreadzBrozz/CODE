@@ -51,7 +51,7 @@ public class TestAutoStuff extends OpMode{
 
 
     private final Pose startPose = new Pose(56.000,8.000, Math.toRadians(90));
-    private final Pose shootPose = new Pose(61.317, 15.793, Math.toRadians(130));
+    private final Pose shootPose = new Pose(62.817, 15.793, Math.toRadians(130));
 
     private final Pose collect1 = new Pose(52.510, 34.867, Math.toRadians(-31));
 
@@ -131,7 +131,7 @@ public class TestAutoStuff extends OpMode{
             case launchon:
                 if(!follower.isBusy()){
 
-                launch2.setPower(0.92);
+                launch2.setPower(0.89);
                 setPathState(PathState.intakeon);
                 }
                 break;
@@ -162,7 +162,7 @@ public class TestAutoStuff extends OpMode{
             case launchon2:
                 if(!follower.isBusy()){
 
-                    launch2.setPower(0.92);
+                    launch2.setPower(0.89);
                     setPathState(PathState.intakeon2);
                 }
                 break;
